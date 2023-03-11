@@ -1,24 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mis recetas</title>
-        <link rel="stylesheet" href="estilo.css">
-        
-    </head>
-    <body>
-        <h1><stron>Receta : Ensalada</stron></h1>
-        <img src="salad.png" alt="foto">
-        <h2><strong>Ingredientes</strong></h2>
-        <p>Los ingredientes necesarios para preparar la ensalada son los singuientes:</p>
-        <ul>
-            <li>Pechuga</li>
-            <li>Lechuga</li>
-            <li>Tomate</li>
-            <li>Cebolla</li>
-            <li>Maiz</li>
-        </ul>
-        <h2><strong>Preparación</strong></h2>
-        <p>Se pican todos los ingredientes, se mezclan y listo!</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+</head>
+<body>
+    <div class="contenedor">
 
-    </body>
+    
+    
+    <div class="loginbox">
+        <h1>Login</h1>
+        <form>
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email">
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password">
+
+            <label for="genero">Género</label>
+         <select name="genero">
+                <option value="no binario">No Binario</option>
+                <option value="transexual">Transexual</option>
+                <option value="intersexual">Intersexual</option>
+                <option value="cisgenero">Cisgenero</option>
+            </select>
+            <label for="terms">Acepta los terminos</label>
+            <input type="checkbox" id="terms" name="terms"/>
+
+            <input type="submit" value="Ingresar">
+        </form>
+
+     </div>
+
+    </div>
+
+
+
+    
+
+
+</body>
 </html>
